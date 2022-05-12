@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Note APP</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app">
+        <h1 class="app-title">Note App</h1>
+        <form action="#" class="task-form" id="task-form">
+          <h2 class="task-form__title">
+            Create note
+          </h2>
+          <input class="input" type="text" name="task-name"  id="task-name" placeholder="Title"/>
+          
+          <textarea class="input textarea" name="task-description" id="task-description" placeholder="Description" rows="4"></textarea>
+          
+          <button class="btn" type="submit">Save</button>
+        </form>
+        <div class="tasks-container" id="tasks">
+         
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
